@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #c2c2c2; */
+    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+}
+.box{
+    background: white;
+    margin: 50px 330px;
+}
+.innerbox{
+    background: #dfdfdf;
+    padding: 25px 50px;
+    border-bottom: 1px solid black;
+}
+.lastinnerbox{
+    background: #dfdfdf;
+    padding: 25px 50px;
+}
+.lightbox{
+    display: flex;
+    justify-content: center;
+}
+.lightbox_1{
+    display: flex;
+    justify-content: end;
+}
+.borderlines{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+button.button_background {
+    background: none;
+    border: none;
+    font-size: 30px;
+}
